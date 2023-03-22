@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Facilities</class>
+ <widget class="QMainWindow" name="Facilities">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Images">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>641</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/winter-blue-pink-gradient-background-vector_53876-117275.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>641</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Open Sans,Arial,sans-serif'; color:#000000; background-color:#ffffff;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus dapibus urna nec dapibus. Praesent at nunc at urna sagittis scelerisque. In hac habitasse platea dictumst. Vivamus luctus pellentesque velit, ut tincidunt dolor suscipit id. Proin ac scelerisque nibh. Maecenas sit amet ligula dui. Nunc mollis magna dolor, quis tincidunt sem convallis a. In rutrum imperdiet euismod. Phasellus non augue leo. Phasellus accumsan et tortor non dapibus.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Interact with side buttons to learn more about our school's facilities</string>
+    </property>
+    <property name="source">
+     <url>
+      <string>file:///C:/Users/joelj/OneDrive/Documents/Programming/PycharmProjects/UWR_Internship/Facilities Description/Library.txt</string>
+     </url>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>661</x>
+      <y>13</y>
+      <width>133</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="labs">
+       <property name="text">
+        <string>Labs</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="library">
+       <property name="text">
+        <string>Library</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="smartClass">
+       <property name="text">
+        <string>Smart Class</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sportAndGames">
+       <property name="text">
+        <string>Sports And Games</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="guideAndcounsel">
+       <property name="text">
+        <string>Guidance And Counselling</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1227</width>
+    <height>719</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active/>
+    <inactive/>
+    <disabled/>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="welcome_school_name">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>1141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active/>
+      <inactive/>
+      <disabled/>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>SansSerif</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Welcome to Mar Thoma Senior Secondary School </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Academics">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Academics</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Facilities">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>310</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Facilities</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Faculty">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>480</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Faculty</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bus_Times">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>480</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bus Times</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>130</y>
+      <width>451</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>slideshow</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="slideshow.qrc"/>
+ </resources>
+ <connections/>
+</ui>
