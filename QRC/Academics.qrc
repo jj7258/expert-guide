@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="Background">
+    <file>magicpattern-gradient-1690353787077.jpeg</file>
+  </qresource>
+  <qresource prefix="Icons">
+    <file>Curriculum.png</file>
+    <file>Circular_PTA.png</file>
+    <file>leftWhite.png</file>
+    <file>ClassIcon.png</file>
+    <file>admissions_Win_icon.png</file>
+    <file>homeIcon.svg</file>
+    <file>left.png</file>
+  </qresource>
+</RCC>

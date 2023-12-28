@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="Background">
+    <file>QRC/magicpattern-gradient-1690353787077.jpeg</file>
+  </qresource>
+  <qresource prefix="Icon">
+    <file>QRC/Class_I_Icon.png</file>
+    <file>QRC/Class_II_Icon.png</file>
+    <file>QRC/Class_III_Icon.png</file>
+    <file>QRC/Class_IV_Icon.png</file>
+    <file>QRC/Class_IX_Icon.png</file>
+    <file>QRC/Class_V_Icon.png</file>
+    <file>QRC/Class_VI_Icon.png</file>
+    <file>QRC/Class_VII_Icon.png</file>
+    <file>QRC/Class_VIII_Icon.png</file>
+    <file>QRC/Class_X_Icon.png</file>
+    <file>QRC/Class_XI_Icon.png</file>
+    <file>QRC/Class_XII_Icon.png</file>
+    <file>QRC/kindergartenIcon.png</file>
+    <file>QRC/homeIcon.svg</file>
+    <file>QRC/leftWhite.png</file>
+  </qresource>
+</RCC>

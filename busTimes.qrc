@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="Background">
+    <file>QRC/magicpattern-gradient-1690353787077.jpeg</file>
+  </qresource>
+  <qresource prefix="Icons">
+    <file>QRC/leftWhite.png</file>
+    <file>QRC/submitIcon.png</file>
+    <file>QRC/homeIcon.svg</file>
+  </qresource>
+</RCC>

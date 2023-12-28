@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PTA_C</class>
+ <widget class="QDialog" name="PTA_C">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>822</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Background/QRC/magicpattern-gradient-1690353787077.jpeg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QWebEngineView" name="PTAviewer">
+     <property name="minimumSize">
+      <size>
+       <width>1200</width>
+       <height>700</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="url">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="circularButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Circulars</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ptac.qrc">
+         <normaloff>:/Icon/QRC/Circular_PTA.png</normaloff>:/Icon/QRC/Circular_PTA.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ptaButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> PTA</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ptac.qrc">
+         <normaloff>:/Icon/QRC/ptaIcon.png</normaloff>:/Icon/QRC/ptaIcon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="backButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Back </string>
+       </property>
+       <property name="icon">
+        <iconset resource="ptac.qrc">
+         <normaloff>:/Icon/QRC/leftWhite.png</normaloff>:/Icon/QRC/leftWhite.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>22</width>
+         <height>22</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="homeButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Home</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ptac.qrc">
+         <normaloff>:/Icon/QRC/homeIcon.svg</normaloff>:/Icon/QRC/homeIcon.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>22</width>
+         <height>22</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="circularsPTALabel">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+background: transparent;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Circulars and PTA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ptac.qrc"/>
+ </resources>
+ <connections/>
+</ui>

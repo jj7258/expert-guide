@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="Background">
+    <file>uniqueLogo.png</file>
+    <file>magicpattern-gradient-1690353787077.jpeg</file>
+    <file>SchoolLogo.png</file>
+  </qresource>
+  <qresource prefix="Icons">
+    <file>kioskIcon.png</file>
+    <file>school.png</file>
+    <file>contactUs.png</file>
+    <file>aboutUs.png</file>
+    <file>academics_Win_icon.png</file>
+    <file>admissions_Win_icon.png</file>
+    <file>busInfo_Win_icon.png</file>
+    <file>facilities_Win_icon.png</file>
+    <file>faculty_Win_icon.png</file>
+  </qresource>
+</RCC>

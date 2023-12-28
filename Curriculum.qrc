@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="Background">
+    <file>QRC/magicpattern-gradient-1690353787077.jpeg</file>
+  </qresource>
+  <qresource prefix="Icons">
+    <file>QRC/zoomin_Icon.png</file>
+    <file>QRC/zoomout_Icon.png</file>
+    <file>QRC/bookList.png</file>
+    <file>QRC/homeIcon.svg</file>
+    <file>QRC/leftWhite.png</file>
+    <file>QRC/Curriculum.png</file>
+  </qresource>
+  <qresource prefix="PDF">
+    <file>PDF/Curriculum/MTCS_Curriculum.pdf</file>
+  </qresource>
+</RCC>

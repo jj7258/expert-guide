@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admissions_Win</class>
+ <widget class="QDialog" name="Admissions_Win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1600</width>
+    <height>820</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Background/magicpattern-gradient-1690353787077.jpeg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>10</number>
+   </property>
+   <property name="topMargin">
+    <number>10</number>
+   </property>
+   <property name="rightMargin">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>10</number>
+   </property>
+   <property name="horizontalSpacing">
+    <number>24</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>12</number>
+   </property>
+   <item row="1" column="0" colspan="2">
+    <widget class="QWebEngineView" name="AdmissionsForm">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1600</width>
+       <height>800</height>
+      </size>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="url">
+      <url>
+       <string>https://surveyheart.com/form/5fd84e07bc3e84028078a8a6</string>
+      </url>
+     </property>
+     <property name="zoomFactor">
+      <double>1.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="HomeButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string> Home</string>
+     </property>
+     <property name="icon">
+      <iconset resource="QRC/Admissions.qrc">
+       <normaloff>:/Icon/homeIcon.svg</normaloff>:/Icon/homeIcon.svg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>35</width>
+       <height>35</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="BackButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+     <property name="icon">
+      <iconset resource="QRC/Admissions.qrc">
+       <normaloff>:/Icon/leftWhite.png</normaloff>:/Icon/leftWhite.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="QRC/Admissions.qrc"/>
+ </resources>
+ <connections/>
+</ui>

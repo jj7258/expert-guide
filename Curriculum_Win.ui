@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Curriculum_Win</class>
+ <widget class="QDialog" name="Curriculum_Win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Background/QRC/magicpattern-gradient-1690353787077.jpeg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="bottomMargin">
+    <number>10</number>
+   </property>
+   <item row="1" column="2" rowspan="2">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="curriculumButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Curriculum</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Curriculum.qrc">
+         <normaloff>:/Icons/QRC/Curriculum.png</normaloff>:/Icons/QRC/Curriculum.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bookList">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Book List</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Curriculum.qrc">
+         <normaloff>:/Icons/QRC/bookList.png</normaloff>:/Icons/QRC/bookList.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="backButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Curriculum.qrc">
+         <normaloff>:/Icons/QRC/leftWhite.png</normaloff>:/Icons/QRC/leftWhite.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="homeButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>75</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Home</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Curriculum.qrc">
+         <normaloff>:/Icons/QRC/homeIcon.svg</normaloff>:/Icons/QRC/homeIcon.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="Curriculum_BookList">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+background: transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Curriculum &amp;amp; Book List &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" rowspan="2" colspan="2">
+    <widget class="QWebEngineView" name="pdfView">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>636</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Curriculum.qrc"/>
+ </resources>
+ <connections/>
+</ui>

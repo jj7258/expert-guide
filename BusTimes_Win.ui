@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>busInfo</class>
+ <widget class="QDialog" name="busInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1605</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Background/QRC/magicpattern-gradient-1690353787077.jpeg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="6">
+    <widget class="QLabel" name="BusInfo_Label">
+     <property name="maximumSize">
+      <size>
+       <width>1600</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sans Serif Collection</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+background: transparent;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Bus Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="4" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>23</number>
+     </property>
+    </layout>
+   </item>
+   <item row="7" column="0">
+    <widget class="QWebEngineView" name="mapView">
+     <property name="minimumSize">
+      <size>
+       <width>1100</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="url">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="4" colspan="2">
+    <widget class="QTableWidget" name="busTable">
+     <property name="minimumSize">
+      <size>
+       <width>463</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+background: transparent;
+}
+</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>151</number>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>34</number>
+     </attribute>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Pick Up Time</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Location</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Drop Off Time</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>7:35 AM</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>Cochin</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>4:30 PM</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+   </item>
+   <item row="2" column="5">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <property name="spacing">
+      <number>14</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="submit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Submit</string>
+       </property>
+       <property name="icon">
+        <iconset resource="busTimes.qrc">
+         <normaloff>:/Icons/QRC/submitIcon.png</normaloff>:/Icons/QRC/submitIcon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>26</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="homeButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}</string>
+       </property>
+       <property name="text">
+        <string> Home</string>
+       </property>
+       <property name="icon">
+        <iconset resource="busTimes.qrc">
+         <normaloff>:/Icons/QRC/homeIcon.svg</normaloff>:/Icons/QRC/homeIcon.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="4">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="boardingPointLabel">
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+background: transparent;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffffff;&quot;&gt;Boarding Point&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="editable">
+        <bool>false</bool>
+       </property>
+       <property name="sizeAdjustPolicy">
+        <enum>QComboBox::AdjustToContents</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>Select you boarding point</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kerala</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chennai</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Maharasthra</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Karnataka</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" rowspan="2">
+    <widget class="QLabel" name="busDetails">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+background: transparent;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt;BusInfo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="busTimes.qrc"/>
+ </resources>
+ <connections/>
+</ui>

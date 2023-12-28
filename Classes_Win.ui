@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Classes</class>
+ <widget class="QDialog" name="Classes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1604</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/Background/QRC/magicpattern-gradient-1690353787077.jpeg);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="KinderGarden">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Kindergarten</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/kindergartenIcon.png</normaloff>:/Icon/QRC/kindergartenIcon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>28</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_1">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class I</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_I_Icon.png</normaloff>:/Icon/QRC/Class_I_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class II</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_II_Icon.png</normaloff>:/Icon/QRC/Class_II_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class III</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_III_Icon.png</normaloff>:/Icon/QRC/Class_III_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class IV</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_IV_Icon.png</normaloff>:/Icon/QRC/Class_IV_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class V</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_V_Icon.png</normaloff>:/Icon/QRC/Class_V_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class VI</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_VI_Icon.png</normaloff>:/Icon/QRC/Class_VI_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_7">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class VII</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_VII_Icon.png</normaloff>:/Icon/QRC/Class_VII_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_8">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class VIII</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_VIII_Icon.png</normaloff>:/Icon/QRC/Class_VIII_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class IX</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_IX_Icon.png</normaloff>:/Icon/QRC/Class_IX_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_10">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sans Serif Collection</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class X</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_X_Icon.png</normaloff>:/Icon/QRC/Class_X_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_11">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class XI</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_XI_Icon.png</normaloff>:/Icon/QRC/Class_XI_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Class_12">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+       </property>
+       <property name="text">
+        <string> Class XII</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Classes.qrc">
+         <normaloff>:/Icon/QRC/Class_XII_Icon.png</normaloff>:/Icon/QRC/Class_XII_Icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>27</width>
+         <height>27</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>40</number>
+       </property>
+       <property name="topMargin">
+        <number>3</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="backButton">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string> Back</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Classes.qrc">
+           <normaloff>:/Icon/QRC/leftWhite.png</normaloff>:/Icon/QRC/leftWhite.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>26</width>
+           <height>25</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="homeButton">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="tabletTracking">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: none;
+color:white;
+border-width: 2px;
+font:bold 25px;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid blue;
+border-style: groove;
+}
+QPushButton:hover
+{
+border-color: white;
+border-style:solid;
+border-width: 2px;
+}
+QPushButton:pressed
+{
+border-style:solid;
+border-width: 2px;
+border-color: rgb(0, 170, 0);
+}
+</string>
+         </property>
+         <property name="text">
+          <string> Home</string>
+         </property>
+         <property name="icon">
+          <iconset resource="Classes.qrc">
+           <normaloff>:/Icon/QRC/homeIcon.svg</normaloff>:/Icon/QRC/homeIcon.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>26</width>
+           <height>26</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWebEngineView" name="classTimeTable">
+     <property name="minimumSize">
+      <size>
+       <width>1200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="url">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="classwiseTT">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>69</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>129</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel
+{
+background: transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Classwise Time Table&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Classes.qrc"/>
+ </resources>
+ <connections/>
+</ui>

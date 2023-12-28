@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Background">
+    <file>QRC/magicpattern-gradient-1690353787077.jpeg</file>
+  </qresource>
+  <qresource prefix="Icon">
+    <file>QRC/leftWhite.png</file>
+    <file>QRC/Circular_PTA.png</file>
+    <file>QRC/ptaIcon.png</file>
+    <file>QRC/homeIcon.svg</file>
+  </qresource>
+</RCC>

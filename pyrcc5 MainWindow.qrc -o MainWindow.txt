@@ -1,0 +1,2 @@
+pyrcc5 MainWindow.qrc -o MainWindow.py
+pyuic5 -x Admissions_Win.ui -o Admissions_Win.py
